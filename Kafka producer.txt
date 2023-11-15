@@ -1,0 +1,20 @@
+S2153599@kafka:~$ kafka-console-producer.sh --bootstrap-server :9092 --topic topic_2153599
+>Hello, World !
+>Nguyen Khanh Nam
+>Hello
+>Hello
+>Distributed
+>Kafka
+>Spark
+>Java
+>Distributed Systems
+>Nguyen Khanh Nam
+>2153599
+>2153599
+>Java
+>Hello
+>Nguyen Khanh Nam
+>WordCount
+>WordCount
+>Java
+>
