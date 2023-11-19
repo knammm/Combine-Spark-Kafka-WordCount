@@ -9,11 +9,12 @@ kafka_bootstrap_servers = '10.1.7.194:9092'
 # Kafka topic
 kafka_topic = 'test_2153599'
 
+# Generate data
 def generate_random_data():
-    date = time.strftime("%m/%d/%y")
-    humidity = "{:.1f}".format(random.uniform(20.0, 80.0))
-    temperature = "{:.1f}".format(random.uniform(18.0, 30.0))
-    current_time = time.strftime("%H:%M:%S")
+    date = time.strftime("%m/%d/%y")                            # Take current date
+    humidity = "{:.1f}".format(random.uniform(20.0, 80.0))      # Range: 20.0 => 80.0
+    temperature = "{:.1f}".format(random.uniform(18.0, 30.0))   # Range: 18.0 => 30.0
+    current_time = time.strftime("%H:%M:%S")                    # Take the current time
 
     return {
         "date": date,
@@ -23,7 +24,7 @@ def generate_random_data():
     }
 
 def send_message(producer, topic, message):
-    producer.send(topic, json.dumps(message).encode('utf-8'))
+    producer.send(topic, json.dumps(message).encode("utf-8"))
     print(f"Sent message: {message}")
 
 def main():
