@@ -1,0 +1,38 @@
+-------------------------------------------
+Time: 1700389500000 ms
+-------------------------------------------
+
+-------------------------------------------
+Time: 1700389500000 ms
+-------------------------------------------
+
+
+
+// After 5 minutes, there were 99 messages sent from the server
+// The first one is Average Humidity. Format (AverageHumid, numOfMessages)
+// The second one is Average Temperature. Format (AverageTemp, numOfMessages)
+-------------------------------------------
+Time: 1700389800000 ms
+-------------------------------------------
+(49.879797979797985,99.0)
+
+-------------------------------------------
+Time: 1700389800000 ms
+-------------------------------------------
+(24.082828282828284,99.0)
+
+
+
+
+// After 5 more minutes, there were 100 messages sent from the server
+// The first one is Average Humidity. Format (AverageHumid, numOfMessages)
+// The second one is Average Temperature. Format (AverageTemp, numOfMessages)
+-------------------------------------------
+Time: 1700390100000 ms
+-------------------------------------------
+(52.00799999999997,100.0)
+
+-------------------------------------------
+Time: 1700390100000 ms
+-------------------------------------------
+(24.4,100.0)
